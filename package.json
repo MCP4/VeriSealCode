@@ -4,7 +4,7 @@
   "description": "VeriSeal — Secure by Nature. NFC + biometric security pod, mascot: Denny the seal.",
   "private": true,
   "engines": {
-    "node": ">=18 <23"
+    "node": ">=18"
   },
   "dependencies": {
     "express": "^4.21.2",
