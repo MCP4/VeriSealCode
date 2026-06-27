@@ -1,28 +1,41 @@
 {
   "name": "veriseal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "description": "VeriSeal — Secure by Nature. NFC + biometric security pod, mascot: Denny the seal.",
+  "private": true,
+  "engines": {
+    "node": ">=18 <23"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "next": "^14.2.35",
-    "puppeteer": "^25.1.0",
+    "express": "^4.21.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "react-scripts": "5.0.1",
     "stripe": "^22.2.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.5.0",
-    "postcss": "^8.5.15",
-    "tailwindcss": "^3.4.19"
+    "puppeteer": "^25.1.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "start": "node server.js",
+    "serve": "node server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

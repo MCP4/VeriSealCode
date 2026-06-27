@@ -1,0 +1,15 @@
+{
+  "short_name": "VeriSeal",
+  "name": "VeriSeal — Secure by Nature",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0D1F1A",
+  "background_color": "#F7FEFA"
+}

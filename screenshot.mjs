@@ -15,6 +15,7 @@ const PAGES = [
   { path: '/use-cases/food-delivery', name: 'use-case-food-delivery' },
   { path: '/how-it-works',   name: 'how-it-works' },
   { path: '/pricing',        name: 'pricing' },
+  { path: '/shop',           name: 'shop-denny' },
 ];
 
 const browser = await puppeteer.launch({
