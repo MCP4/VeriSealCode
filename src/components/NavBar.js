@@ -47,7 +47,7 @@ export default function NavBar() {
         {/* Wordmark */}
         <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
           <div style={{ height: 54, overflow: 'hidden', flexShrink: 0 }}>
-            <img src="/images/pfp-veriseal-updated.png" alt="VeriSeal" style={{ height: 72, width: 'auto', display: 'block' }} />
+            <img src="/images/trans-back-pfp.png" alt="VeriSeal" style={{ height: 72, width: 'auto', display: 'block' }} />
           </div>
         </Link>
 
