@@ -27,8 +27,7 @@ export default function App() {
         <Route path="/use-cases" element={<UseCasesPage />} />
         <Route path="/use-cases/:id" element={<UseCaseDetailPage />} />
         <Route path="/how-it-works" element={<HowItWorksPage />} />
-        <Route path="/pricing" element={<PricingPage />} />
-        <Route path="/shop" element={<ShopPage />} />
+        
         <Route path="/privacy" element={<LegalPage kind="privacy" />} />
         <Route path="/terms" element={<LegalPage kind="terms" />} />
         <Route path="*" element={<NotFoundPage />} />
@@ -36,3 +35,9 @@ export default function App() {
     </>
   );
 }
+
+// Place back in when inuse after howItWorksPage
+/**
+ * <Route path="/pricing" element={<PricingPage />} />
+        <Route path="/shop" element={<ShopPage />} />
+ */

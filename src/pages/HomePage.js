@@ -71,8 +71,8 @@ const TRUST_ITEMS = ['NFC Verified', 'GPS Tracked', 'Biometric Unlocked', '10 Us
 
 export default function HomePage() {
   usePageMeta(
-    'VeriSeal — Secure by Nature',
-    'One pod. Anywhere you need it secure. NFC authentication and biometric verification, guarded by Denny the seal.'
+    'VeriSeal',
+    'One pod. Anywhere you need secured storage. NFC authentication and biometric verification.'
   );
 
   return (
@@ -117,10 +117,10 @@ export default function HomePage() {
               Lock it · Track it · Know who touched it
             </div>
             <h1 style={{ margin: 0, fontWeight: 800, fontSize: 'clamp(36px, 5vw, 64px)', color: '#fff', lineHeight: 1.1, letterSpacing: '-0.02em', marginBottom: 24 }}>
-              One smart pod. Total control over your stuff. Anywhere.
+              One smart pod. Total control over your stuff. Anywhere, anytime.
             </h1>
             <p style={{ margin: 0, fontSize: 18, color: 'var(--color-text)', lineHeight: 1.7, maxWidth: 540, marginBottom: 40 }}>
-              VeriSeal is a portable, secure pod that controls who can access your things, when they can, and what happens if someone tries anything they shouldn&apos;t. Porch deliveries, your trunk, your dorm, your gym locker, your suitcase — one storage solution you take everywhere. With Denny the seal watching the door.
+              VeriSeal is a smart, modular secure pod system that uses NFC authentication and biometric verification to function as a high-tech safe, addressing critical gaps across food delivery, residential security, mobile valuables, and shared-space storage.
             </p>
             <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', marginBottom: 40 }}>
               <Link to="/pricing" style={{ textDecoration: 'none' }}>
@@ -191,7 +191,7 @@ export default function HomePage() {
               Get early access.
             </h2>
             <p style={{ margin: 0, fontSize: 15, color: 'rgba(255,255,255,0.55)', lineHeight: 1.7 }}>
-              Join the list. Be first to know when VeriSeal ships — no spam, just launch updates and backer perks.
+              Join the list. Be first to know when VeriSeal is live on Indiegogo. No spam, just launch updates and backer perks.
             </p>
           </div>
           <EmailCapture />
