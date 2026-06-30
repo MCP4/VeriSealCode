@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 
 const NAV_LINKS = [
   { label: 'Use Cases', href: '/use-cases' },
+  // Temporarily hidden — restore these when the pages go live:
   { label: 'How It Works', href: '/how-it-works' },
-  { label: 'Pricing', href: '/pricing' },
-  { label: 'Shop Denny', href: '/shop' },
+  // { label: 'Pricing', href: '/pricing' },
+  // { label: 'Shop Denny', href: '/shop' },
+  // {label: 'About Us', href: '/about-us'}
 ];
 
 export default function NavBar() {
